@@ -46,3 +46,30 @@
 [2025-04-04 17:01:19 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/?p=13475 has been purged, triggered by action: save_post 
 [2025-04-04 17:01:19 : INFO] - Cache for previous post (with URL: http://localhost/SanCorpSemiconductors/?p=1) adjacent to post with id: 13475 has been purged, triggered by action: save_post 
 [2025-04-04 17:01:19 : INFO] - Cache for all archives page associated with post_type: post and Title: "Auto Draft" have been purged, triggered by action: save_post 
+[2025-04-05 07:22:32 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/ has been purged, triggered by action: save_post 
+[2025-04-05 07:22:32 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/ has been purged, triggered by action: save_post 
+[2025-04-05 07:22:33 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/ has been purged, triggered by action: save_post 
+[2025-04-05 07:24:49 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/ has been purged, triggered by action: save_post 
+[2025-04-05 07:24:49 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/ has been purged, triggered by action: save_post 
+[2025-04-05 07:24:51 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/ has been purged, triggered by action: save_post 
+[2025-04-05 07:32:31 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/?techex_header=header-05 has been purged, triggered by action: save_post 
+[2025-04-05 07:32:31 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/?techex_header=header-05 has been purged, triggered by action: save_post 
+[2025-04-05 07:32:31 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/?techex_header=header-05 has been purged, triggered by action: save_post 
+[2025-04-05 07:37:15 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/ has been purged, triggered by action: save_post 
+[2025-04-05 07:37:15 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/ has been purged, triggered by action: save_post 
+[2025-04-05 07:37:16 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/ has been purged, triggered by action: save_post 
+[2025-04-05 07:38:43 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/ has been purged, triggered by action: save_post 
+[2025-04-05 07:38:43 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/ has been purged, triggered by action: save_post 
+[2025-04-05 07:38:44 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/ has been purged, triggered by action: save_post 
+[2025-04-05 07:50:02 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/ has been purged, triggered by action: save_post 
+[2025-04-05 07:50:02 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/ has been purged, triggered by action: save_post 
+[2025-04-05 07:50:03 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/ has been purged, triggered by action: save_post 
+[2025-04-05 08:00:48 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/ has been purged, triggered by action: save_post 
+[2025-04-05 08:00:49 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/ has been purged, triggered by action: save_post 
+[2025-04-05 08:00:50 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/ has been purged, triggered by action: save_post 
+[2025-04-05 08:01:28 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/?page_id=63 has been purged, triggered by action: save_post 
+[2025-04-05 08:01:28 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/?page_id=63 has been purged, triggered by action: save_post 
+[2025-04-05 08:01:29 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/?page_id=63 has been purged, triggered by action: save_post 
+[2025-04-05 08:31:53 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/ has been purged, triggered by action: save_post 
+[2025-04-05 08:31:53 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/ has been purged, triggered by action: save_post 
+[2025-04-05 08:31:55 : INFO] - Cache for URL: http://localhost/SanCorpSemiconductors/ has been purged, triggered by action: save_post 
