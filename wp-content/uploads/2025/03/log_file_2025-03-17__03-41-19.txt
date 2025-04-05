@@ -1,0 +1,154 @@
+
+---Downloaded files---
+The import files for: Home 07 were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/SanCorpSemiconductors
+Data file = C:\wamp64\www\SanCorpSemiconductors/wp-content/themes/techex/inc/demo-contents/Home-07.xml
+Widget file = C:\wamp64\www\SanCorpSemiconductors/wp-content/themes/techex/inc/demo-contents/widget.wie
+Customizer file = C:\wamp64\www\SanCorpSemiconductors/wp-content/themes/techex/inc/demo-contents/customizer.dat
+Redux files:
+techex -> C:\wamp64\www\SanCorpSemiconductors/wp-content/themes/techex/inc/demo-contents/theme-options.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: techex finished successfully!
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

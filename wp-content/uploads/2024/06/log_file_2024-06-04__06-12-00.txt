@@ -1,0 +1,25 @@
+
+---Downloaded files---
+The import files for: Home were successfully downloaded!
+Initial max execution time = 480
+Files info:
+Site URL = https://wp.rrdevs.net/techex
+Data file = /home/u602375561/domains/rrdevs.net/public_html/wp/techex/wp-content/themes/techex/inc/demo-contents/Home-01.xml
+Widget file = /home/u602375561/domains/rrdevs.net/public_html/wp/techex/wp-content/themes/techex/inc/demo-contents/widget.wie
+Customizer file = not defined!
+Redux files:
+techex -> /home/u602375561/domains/rrdevs.net/public_html/wp/techex/wp-content/themes/techex/inc/demo-contents/theme-options.json 
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+
+
+---Importing Redux settings---
+Redux settings import for: techex finished successfully!

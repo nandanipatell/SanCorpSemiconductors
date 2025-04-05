@@ -1,0 +1,133 @@
+
+---Downloaded files---
+The import files for: Initial Setup were successfully downloaded!
+Initial max execution time = 36000
+Files info:
+Site URL = http://techex.test
+Data file = C:\laragon\www\techex/wp-content/themes/techex/inc/demo-contents/initial-setup.xml
+Widget file = C:\laragon\www\techex/wp-content/themes/techex/inc/demo-contents/widget.wie
+Customizer file = not defined!
+Redux files:
+techex -> C:\laragon\www\techex/wp-content/themes/techex/inc/demo-contents/theme-options.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: techex finished successfully!

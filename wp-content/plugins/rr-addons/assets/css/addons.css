@@ -1,0 +1,3674 @@
+    /*--------------------------------------------------------------============================================================
+[Widget Stylesheet]
+
+/*==============================
+[Table of contents]
+
+WIDGET STYLESHEET
+----------------------------------
+BREADCRUMB
+MAIN MENU
+BUTTON
+FEATURE BOX
+PRICING BOX
+LINEICON BOX
+TEAM CARD
+JQUERY FATEPICKER
+ALIGN SERVICE
+HEADDING
+BLOG
+BLOG CATEGORY
+NAGIGATION
+BACK TO SCROLL
+PORTFOLIO
+blog
+VERTICAL MENU
+SLIDER
+STICKY
+COUNTDOWN
+CONTACT FORM
+LOGIN FORM
+ACCORDION
+PROGRESS BAR
+TAB
+CARD
+CSS TRANSFORM
+FUN FACTOR
+
+LIST GROUP
+......
+RESPONSIVE CSS
+=============================================================--------------------------------------------------------------*/
+    /*---------------------------------------------------
+ELEMENTOR CUSOTM CSS
+----------------------------------------------------*/
+
+    .elementor-wrapper.elementor-open-lightbox {
+        position: relative;
+    }
+
+    .elementor-wrapper.elementor-open-lightbox:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        content: "";
+        border-radius: 10px;
+        z-index: 1;
+        opacity: 0.2;
+    }
+
+    .elementor-custom-embed-play {
+        z-index: 2;
+    }
+
+    .elementor-widget-text-editor .elementor-drop-cap {
+        line-height: 0;
+    }
+
+    .elementor-social-icon {
+        display: inline-flex !important;
+    }
+
+    /*---------------------------------------------------
+    BREADCRUMB
+    ----------------------------------------------------*/
+
+    ul.rr-addons-breadcrumbs {
+        display: block;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    ul.rr-addons-breadcrumbs li {
+        display: inline-block;
+        margin-right: 15px;
+    }
+
+    ul.rr-addons-breadcrumbs li:last-child {
+        margin: 0;
+    }
+
+    ul.rr-addons-breadcrumbs li a,
+    ul.rr-addons-breadcrumbs li span.rr-addons-breadcrumbs-text,
+    ul.rr-addons-breadcrumbs li span.rr-addons-breadcrumbs-separator-icon {
+        display: block;
+    }
+
+    ul.rr-addons-breadcrumbs li span.rr-addons-breadcrumbs-text {
+        -webkit-transition: all .4s;
+        transition: all .4s;
+    }
+
+    span.rr-addons-breadcrumbs-home-icon {
+        margin-right: 10px;
+    }
+
+    /*---------------------------------------------------
+MAIN MENU
+----------------------------------------------------*/
+
+    .rr-addons-main-menu-wrap.menu-align-end {
+        justify-content: flex-end;
+    }
+
+    .rr-addons-main-menu-wrap.menu-align-center {
+        justify-content: center;
+    }
+
+    .rr-addons-main-menu-wrap.menu-align-start {
+        justify-content: flex-start;
+    }
+
+    /*---------------------------------------------------
+    BUTTON
+    ----------------------------------------------------*/
+    span.content {
+        margin-top: 4px;
+    }
+
+    span.icon-after.btn-icon {
+        margin-top: 5px;
+    }
+
+    a.rr-addons-btn,
+    .rr-addons-btn {
+        background: var(--accent-color);
+        line-height: 25px;
+        font-size: 17px;
+        padding-bottom: 5px;
+        position: relative;
+        display: inline-flex;
+        cursor: pointer;
+        justify-content: center;
+        color: #fff;
+        padding: 15px 45px;
+        border-radius: 5px;
+        -webkit-transition-duration: 0.50s;
+        transition-duration: 0.50s;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+    }
+
+    a.rr-addons-btn.btn-type-boxed {
+        background-color: var(--accent-color);
+        color: #fff;
+        letter-spacing: -0.53px;
+        font-weight: 500;
+        line-height: 24px;
+        padding: 20px 40px 15px;
+        border-radius: 0px;
+        display: inline-flex;
+        border-color: transparent;
+        align-items: center;
+    }
+
+
+    /* Button Hover Animation */
+    .rr-addons-btn-style1-bottom,
+    .rr-addons-btn-style1-top,
+    .rr-addons-btn-style1-right,
+    .rr-addons-btn-style1-left,
+    .rr-addons-btn-style2-shutouthor,
+    .rr-addons-btn-style2-shutoutver,
+    .rr-addons-btn-style2-shutinhor,
+    .rr-addons-btn-style2-shutinver,
+    .rr-addons-btn-style2-scshutouthor,
+    .rr-addons-btn-style2-scshutoutver,
+    .rr-addons-btn-style2-dshutinhor,
+    .rr-addons-btn-style2-dshutinver,
+    .rr-addons-btn-style3-radialin,
+    .rr-addons-btn-style3-radialout,
+    .rr-addons-btn-style3-rectin,
+    .rr-addons-btn-style3-rectout {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px transparent;
+        position: relative;
+        -webkit-transition-property: color;
+        transition-property: color;
+        -webkit-transition: all 0.3s ease-in-out !important;
+        -moz-transition: all 0.3s ease-in-out !important;
+        -ms-transition: all 0.3s ease-in-out !important;
+        -o-transition: all 0.3s ease-in-out !important;
+        transition: all 0.3s ease-in-out !important;
+    }
+
+    .rr-addons-btn-style1-bottom:before,
+    .rr-addons-btn-style1-top:before,
+    .rr-addons-btn-style1-right:before,
+    .rr-addons-btn-style1-left:before,
+    .rr-addons-btn-style2-shutinhor:before,
+    .rr-addons-btn-style2-shutinver:before,
+    .rr-addons-btn-style2-shutouthor:before,
+    .rr-addons-btn-style2-shutoutver:before,
+    .rr-addons-btn-style2-scshutouthor:before,
+    .rr-addons-btn-style2-scshutoutver:before,
+    .rr-addons-btn-style2-dshutinhor:before,
+    .rr-addons-btn-style2-dshutinver:before,
+    .rr-addons-btn-style3-radialin:before,
+    .rr-addons-btn-style3-radialout:before,
+    .rr-addons-btn-style3-rectin:before,
+    .rr-addons-btn-style3-rectout:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0);
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+        -webkit-transition-duration: 0.50s;
+        transition-duration: 0.50s;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+    }
+
+    .rr-addons-btn-style3-radialin:before,
+    .rr-addons-btn-style3-radialout:before {
+        -webkit-transform-origin: 50%;
+        transform-origin: 50%;
+        border-radius: 100%;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    .rr-addons-btn-style3-radialin:before {
+        -webkit-transform: scale(2);
+        transform: scale(2);
+    }
+
+    .rr-addons-btn-style3-rectin:before,
+    .rr-addons-btn-style3-rectout:before {
+        -webkit-transform-origin: 50%;
+        transform-origin: 50%;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .rr-addons-btn-style3-rectout:before {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    .rr-addons-btn-style3-rectout:hover:before {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .rr-addons-btn-style3-rectin:hover:before {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    .rr-addons-btn-style3-radialout:hover:before {
+        -webkit-transform: scale(2);
+        transform: scale(2);
+    }
+
+    .rr-addons-btn-style3-radialin:hover:before {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    .rr-addons-btn-style1-top:before {
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+    }
+
+    .rr-addons-btn-style1-right:before {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: 0% 50%;
+        transform-origin: 0% 50%;
+    }
+
+    .rr-addons-btn-style1-left:before {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: 100% 50%;
+        transform-origin: 100% 50%;
+    }
+
+    .rr-addons-btn-style2-shutouthor:before,
+    .rr-addons-btn-style2-scshutoutver:before {
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0);
+        -webkit-transform-origin: 100% 50%;
+        transform-origin: 100% 50%;
+    }
+
+    .rr-addons-btn-style2-shutoutver:before,
+    .rr-addons-btn-style2-scshutouthor:before {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    }
+
+    .rr-addons-btn-style2-shutinhor:before {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        -webkit-transform-origin: 50%;
+        transform-origin: 50%;
+    }
+
+    .rr-addons-btn-style2-shutinver:before {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+        -webkit-transform-origin: 50%;
+        transform-origin: 50%;
+    }
+
+    .rr-addons-btn-style1-bottom:hover:before,
+    .rr-addons-btn-style1-top:hover:before {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+    }
+
+    .rr-addons-btn-style1-left:hover:before,
+    .rr-addons-btn-style1-right:hover:before,
+    .rr-addons-btn-style2-shutouthor:hover:before,
+    .rr-addons-btn-style2-shutoutver:hover:before {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+
+    .rr-addons-btn-style2-shutinhor:hover:before {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+    }
+
+    .rr-addons-btn-style2-shutinver:hover:before {
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0);
+    }
+
+    .rr-addons-btn-style2-scshutouthor:hover:before {
+        -webkit-transform: scaleX(0.9);
+        transform: scaleX(0.9);
+    }
+
+    .rr-addons-btn-style2-scshutoutver:hover:before {
+        -webkit-transform: scaleY(0.8);
+        transform: scaleY(0.8);
+    }
+
+    /*Diagonal*/
+    .rr-addons-btn-style2-dshutinhor:before,
+    .rr-addons-btn-style2-dshutinver:before {
+        top: 50%;
+        left: 50%;
+        width: 120%;
+        height: 0%;
+        -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+        transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+        -webkit-transform-origin: 50%;
+        transform-origin: 50%;
+        -webkit-transition-property: all;
+        transition-property: all;
+    }
+
+    .rr-addons-btn-style2-dshutinver:before {
+        -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+        transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    }
+
+    .rr-addons-btn-style2-dshutinhor:hover:before,
+    .rr-addons-btn-style2-dshutinver:hover:before {
+        height: 220%;
+    }
+
+
+
+    /* Button Style */
+    .rr-addons-btn.style-one {
+        display: inline-block;
+        overflow: hidden;
+        transition: all 0.2s linear 0s;
+    }
+
+    .rr-addons-btn.style-one:before {
+        content: "\f061";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 15px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right: 0;
+        top: 0;
+        opacity: 0;
+        height: 100%;
+        width: 40px;
+        transform: translateX(100%);
+        transition: all 0.2s linear 0s;
+    }
+
+    .rr-addons-btn.style-one:hover {
+        text-indent: -20px;
+    }
+
+    .rr-addons-btn.style-one:hover:before {
+        opacity: 1;
+        text-indent: 0px;
+        transform: translateX(-25%);
+    }
+
+
+
+
+    /* Button Style two*/
+
+    .rr-addons-btn.style-two {
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .rr-addons-btn.style-two .content {
+        display: block;
+    }
+
+    .rr-addons-btn.style-two::before,
+    .rr-addons-btn.style-two::after {
+        content: "";
+        width: 0;
+        height: 2px;
+        position: absolute;
+        transition: all 0.2s linear;
+        background: #5454D4;
+    }
+
+    .rr-addons-btn.style-two .content::before,
+    .rr-addons-btn.style-two .content::after {
+        content: "";
+        width: 2px;
+        height: 0;
+        position: absolute;
+        transition: all 0.2s linear;
+        background: #5454D4;
+    }
+
+    .rr-addons-btn.style-two::before {
+        right: 0;
+        top: 0;
+    }
+
+    .rr-addons-btn.style-two::after {
+        left: 0;
+        bottom: 0;
+    }
+
+    .rr-addons-btn.style-two:hover::before,
+    .rr-addons-btn.style-two:hover::after {
+        width: 100%;
+    }
+
+    .rr-addons-btn.style-two:hover .content::before,
+    .rr-addons-btn.style-two:hover ::after {
+        height: 100%;
+    }
+
+    .rr-addons-btn.style-two::before,
+    .rr-addons-btn.style-two::after {
+        transition-delay: 0.2s;
+    }
+
+    .rr-addons-btn.style-two span::before,
+    .rr-addons-btn.style-two span::after {
+        transition-delay: 0s;
+    }
+
+    .rr-addons-btn.style-two span::before {
+        left: 0;
+        top: 0;
+    }
+
+    .rr-addons-btn.style-two span::after {
+        right: 0;
+        bottom: 0;
+    }
+
+    .rr-addons-btn.style-two:hover::before,
+    .rr-addons-btn.style-two:hover::after {
+        transition-delay: 0s;
+    }
+
+    .rr-addons-btn.style-two:hover span::before,
+    .rr-addons-btn.style-two:hover span::after {
+        transition-delay: 0.2s;
+    }
+
+    /*Youtube Button Style Three*/
+
+    .rr-addons-btn.style-three:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        display: block;
+        width: 90px;
+        height: 90px;
+        background: #fff;
+        border-radius: 50%;
+        animation: pulse-border 1500ms ease-out infinite;
+    }
+
+
+
+    @keyframes pulse-border {
+        0% {
+            transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+            opacity: 1;
+        }
+
+        100% {
+            transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+            opacity: 0;
+        }
+    }
+
+
+
+
+    /* hover Style All */
+    .all-side span.hover-animation {
+        position: absolute;
+        display: block;
+        width: 0;
+        background-color: red;
+        transform: translate(-50%, -50%);
+        transition: width 0.6s, height 0.6s;
+        height: 0px;
+        z-index: -1;
+        border-radius: 50%;
+    }
+
+    .all-side:hover span.hover-animation {
+        width: 350px;
+        height: 350px;
+    }
+
+    /* image box start */
+
+    .elementor-image-box-img {
+        transition: .4s;
+    }
+
+    .elementor-widget-rr-addons-form .rr-addons-contact-from button[type=submit],
+    .rr-addons-btn {
+        position: relative;
+        z-index: 1;
+    }
+
+    .elementor-widget-rr-addons-form .rr-addons-contact-from button[type=submit]:hover:after {
+        visibility: visible;
+        opacity: 0;
+        height: 474%;
+        left: -90px;
+        top: -83px;
+    }
+
+    .btn-icon svg * {
+        transition: .3s;
+    }
+
+    .elementor-widget-rr-addons-form .rr-addons-contact-from button[type=submit] svg {
+        /* width: 16px; */
+        /* margin-left: 15px; */
+    }
+
+    .wpcf7-form-control.wpcf7-acceptance span {
+        display: inline;
+    }
+
+    .row.contact-form-home-02 input {
+        text-align: center;
+    }
+
+    .row.contact-form-home-02 .wpcf7-form-control-wrap:after {
+        position: absolute;
+        content: "\f0e0";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        top: 50%;
+        left: 20px;
+        height: 30px;
+        width: 30px;
+        font-size: 20px;
+        color: #CDCCD9;
+        transform: translateY(-50%);
+    }
+
+    /*---------------------------------------------------
+FEATURE BOX
+----------------------------------------------------*/
+
+    .rr-addons-feature-box-item {
+        transition: .4s;
+    }
+
+    .rr-addons-feature-box-item .icon-background-yes .rr-addons-feature-icon {
+        width: 70px;
+        height: 70px;
+        display: flex;
+        text-align: center;
+        line-height: 70px;
+        font-size: 30px;
+        background-color: var(--accent-color);
+        border-radius: 0px;
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rr-addons-feature-box-item .icon-background-yes .rr-addons-feature-icon svg {
+        width: 35px;
+    }
+
+    span.rr-addons-feature-icon.icon-type-image img {
+        object-fit: cover;
+    }
+
+    .rr-addons-feature-icon-wrap {
+        margin-bottom: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rr-addons-feature-title {
+        margin-bottom: 18px;
+        font-size: 20px;
+    }
+
+    .rr-addons-feature-content p {
+        margin-bottom: 0;
+    }
+
+    .rr-addons-feature-box-item.rr-addons-icon-position-left {
+        display: inline-flex;
+        text-align: left;
+    }
+
+    .rr-addons-feature-box-item.rr-addons-icon-position-right {
+        display: flex;
+        text-align: right;
+        flex-direction: row-reverse;
+    }
+
+    .rr-addons-feature-box-item.rr-addons-feature-icon-center {
+        text-align: center;
+    }
+
+    .rr-addons-feature-box-item.rr-addons-feature-icon-left {
+        text-align: left;
+    }
+
+    .rr-addons-feature-box-item.rr-addons-feature-icon-left .rr-addons-feature-icon-wrap {
+        justify-content: flex-start;
+    }
+
+    .rr-addons-feature-box-item.rr-addons-feature-icon-right .rr-addons-feature-icon-wrap {
+        justify-content: flex-end;
+    }
+
+    .rr-addons-feature-box-item.rr-addons-feature-icon-right {
+        text-align: right;
+    }
+
+    .rr-addons-feature-icon-wrap i,
+    .rr-addons-feature-icon-wrap svg,
+    .rr-addons-feature-icon {
+        transition: .3s ease-in-out;
+        ;
+    }
+
+    .rr-addons-feature-box-item .icon-background-no .rr-addons-feature-icon svg {
+        MAX-HEIGHT: 118PX;
+    }
+
+    .rr-addons-feature-box-item .rr-addons-feature-icon i {
+        font-size: 25px;
+    }
+
+    .rr-addons-feature-box-number {
+        font-size: 22px;
+        letter-spacing: -0.73px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+    .rr-addons-feature-box-number span {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        border: 1px solid rgba(255, 255, 255, .16);
+    }
+
+    /*---------------------------------------------------
+PRICING BOX
+----------------------------------------------------*/
+    /* Pricing Menu Start */
+
+    .rr-addons-pricing-list-wrapper.border_bottom .rr-addons-pricing-list-item:last-child {
+        border-bottom: none !important;
+    }
+
+    .rr-addons-pricing-list-item.yes {
+        display: flex;
+    }
+
+    .rr-addons-pricing-list-item-thumbnail {
+        overflow: hidden;
+    }
+
+    .rr-addons-pricing-list-item-thumbnail img {
+        height: 100% !important;
+        width: 100%;
+        object-fit: cover;
+        -o-object-fit: cover;
+    }
+
+    .rr-addons-pricing-title {
+        display: flex;
+        align-items: center;
+    }
+
+    .rr-addons-pricing-title .rr-addons-pricing-list-item-price {
+        margin-left: auto;
+    }
+
+    .rr-addons-pricing-list-item-content-title {
+        display: flex;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .rr-addons-pricing-list-item-content-description {
+        margin: 0;
+    }
+
+    .rr-addons-pricing-list-item-price span {
+        display: block;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .rr-addons-pricing-list-item-content-action {
+        display: inline-block;
+        transition: all .3s ease;
+    }
+
+    .rr-addons-pricing-list-item-content-conntector {
+        border-bottom: 1px dashed;
+        height: 1px;
+        flex-grow: 1;
+        align-self: center;
+        margin: 0 15px;
+    }
+
+    /* Pricing List End */
+    /* Pricing Table Start */
+
+    .left {
+        text-align: left;
+    }
+
+    .left .rr-addons-pricing-table-features li {
+        justify-content: flex-start;
+    }
+
+    .left .price-box {
+        margin-right: auto;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .center.rr-addons-pricing-table-features li {
+        justify-content: center;
+    }
+
+    .center .price-box {
+        margin: 0 auto;
+    }
+
+    .right {
+        text-align: right;
+    }
+
+    .right .rr-addons-pricing-table-features li {
+        justify-content: flex-end;
+    }
+
+    .right .price-box {
+        margin-left: auto;
+    }
+
+    .rr-addons-pricing-table-header {
+        position: relative;
+        z-index: -1;
+    }
+
+    .rr-addons-pricing-table-header .rr-addons-pricing-table-header-curved svg {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 1;
+        width: 100%;
+    }
+
+    .rr-addons-pricing-table-title {
+        margin: 0 0 16px 0;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .rr-addons-pricing-table-subtitle {
+        margin: 0 0 10px 0;
+    }
+
+    .price-box {
+        position: relative;
+    }
+
+    .rr-addons-pricing-table-price {
+        position: relative;
+    }
+
+    .rr-addons-pricing-table-price.rr-addons-discount-price-yes {
+        display: inline-flex;
+        align-items: flex-end;
+    }
+
+    .rr-addons-pricing-table-price.rr-addons-discount-price-yes .rr-addons-pricing-table-regular-price {
+        text-decoration: line-through;
+        font-size: 20px;
+        color: #e5e5e5;
+        line-height: 2.1em;
+    }
+
+    .rr-addons-pricing-table-price svg {
+        position: absolute;
+    }
+
+    .rr-addons-pricing-table-wrapper .rr-addons-pricing-table-price p.rr-addons-pricing-table-new-price {
+        font-size: 48px;
+        font-weight: 600;
+        letter-spacing: -3.2px;
+    }
+
+    .rr-addons-pricing-table-wrapper .rr-addons-pricing-table-price span.rr-addons-price-period {
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 0px;
+    }
+
+    .rr-addons-pricing-table-price p {
+        margin: 0;
+    }
+
+    .price-box p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        width: 100%;
+    }
+
+    .rr-addons-pricing-table-features {
+        margin: 0;
+        padding: 0;
+    }
+
+    .rr-addons-pricing-table-features li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    .list-border-bottom li:not(:last-child) {
+        border-bottom: 1px solid #ff5985;
+    }
+
+    .rr-addons-pricing-table-features li .rr-addons-pricing-li-icon {
+        margin-right: 7px;
+    }
+
+    .rr-addons-pricing-table-action {
+        text-decoration: none;
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rr-addons-pricing-table-badge-wrapper {
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        transition: all .3s ease;
+    }
+
+    .rr-addons-pricing-table-wrapper {
+        transition: all .3s ease;
+    }
+
+    .rr-addons-pricing-table-wrapper.transition_top {
+        transition: all .3s ease;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+    }
+
+    .rr-addons-pricing-table-wrapper.transition_top:hover {
+        transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+    }
+
+    .rr-addons-pricing-table-wrapper.transition_bottom {
+        transition: all .3s ease;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+    }
+
+    .rr-addons-pricing-table-wrapper.transition_bottom:hover {
+        transform: translateY(10px);
+        -webkit-transform: translateY(10px);
+    }
+
+    .rr-addons-pricing-table-wrapper.transition_zoom {
+        transition: all .3s ease;
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+
+    .rr-addons-pricing-table-wrapper.transition_zoom:hover {
+        transform: scale(1.02);
+        -webkit-transform: scale(1.02);
+    }
+
+    .rr-addons-pricing-table-wrapper .text-badge {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #13c83a;
+        padding: 13px 50px;
+        width: 160px;
+        text-align: center;
+        -webkit-transform: rotate(45deg) translate(40px, -22px);
+        transform: rotate(45deg) translate(40px, -22px);
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: bold;
+        z-index: 2;
+    }
+
+    .rr-addons-pricing-table-wrapper .icon-badge {
+        position: absolute;
+        padding: 15px 10px;
+        border-radius: 0 0 40px 40px;
+        background: #13c83a;
+        right: 30px;
+        top: 0;
+        z-index: 2;
+    }
+
+    .rr-addons-pricing-table-promo-label {
+        display: block;
+    }
+
+    .rr-addons-pricing-table-currency {
+        position: relative;
+    }
+
+    .rr-addons-pricing-table-price-subtitle {
+        display: block;
+    }
+
+    .rr-addons-pricing-area .rr-addons-pricing-item ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    a.rr-addons-btn.yearly-btn {
+        display: none;
+    }
+
+    [data-value-active="yearly"] a.rr-addons-btn.yearly-btn {
+        display: inline-flex;
+    }
+
+    [data-value-active="yearly"] a.rr-addons-btn.monthly-btn {
+        display: none;
+    }
+
+    /*---------------------------------------------------
+Pricing Table
+----------------------------------------------------*/
+
+    .rr-addons-pricing-area .rr-addons-pricing-item {
+        border: 1px solid #e7e9ed;
+        color: var(--text-color);
+        padding: 35px 50px 35px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .rr-addons-pricing-area .rr-addons-pricing-title {
+        display: block;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 1.63px;
+        color: var(--accent-color);
+        text-transform: uppercase;
+        margin-bottom: 24px;
+    }
+
+    div#pricing-dynamic-deck--head {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .rr-addons-pricing-area .rr-addons-pricing-features {
+        margin-bottom: 30px;
+        color: var(--text-color);
+        /* Style for "6 Month Pr" */
+        /* opacity: 0.7; */
+        font-size: 17px;
+        font-weight: 300;
+        letter-spacing: -0.2px;
+        line-height: 29px;
+    }
+
+    .rr-addons-pricing-features img {
+        margin-right: 6px;
+    }
+
+    .rr-addons-pricing-area .rr-addons-pricing-features p {
+        margin-bottom: 15px;
+    }
+
+    .rr-addons-pricing-area .rr-addons-pricing-item .rr-addons-price h2 {
+        font-size: 60px;
+        color: var(--heading-color);
+        font-weight: 700;
+        letter-spacing: -2px;
+        display: inline-block;
+    }
+
+    .rr-addons-pricing-area .rr-addons-pricing-item .rr-addons-price {
+        font-weight: 400;
+    }
+
+    .rr-addons-pricing-area .rr-addons-price.rr-addons-price-yearly {
+        display: none;
+    }
+
+    /* .rr-addons-pricing-area .rr-addons-pricing-item.focused a.rr-addons-btn.btn-type-boxed,.rr-addons-pricing-item.pricing-box-not-loop .rr-addons-btn.btn-type-boxed {
+    background-color: var(--accent-color);
+    color: #fff;
+    border-color: var(--accent-color);
+} */
+
+    .rr-addons-pricing-item span.price-currency {
+        font-size: 24px;
+        letter-spacing: -0.8px;
+    }
+
+    .rr-addons-pricing-item a.rr-addons-btn.btn-type-boxed {
+        background-color: rgb(71 59 240 / 0.08);
+        /* Style for "Start Free" */
+        color: var(--accent-color);
+        font-size: 17px;
+        font-weight: 700;
+        letter-spacing: -0.6px;
+        padding: 19.5px 20px;
+        line-height: 1;
+        border-radius: 8px;
+    }
+
+    .rr-addons-pricing-item a.rr-addons-btn.btn-type-boxed i {
+        margin-left: 40px;
+    }
+
+    .rr-addons-pricing-item a.rr-addons-btn.btn-type-boxed:hover {
+        -webkit-transform: translatey(-8px);
+        transform: translatey(-8px);
+    }
+
+    /* .rr-addons-pricing-item.focused a.rr-addons-btn.btn-type-boxed {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+} */
+    /* pricing switcher  */
+
+    .rr-addons-pricing-item.focused {
+        z-index: 1;
+    }
+
+    .rr-addons-price-wrap span.price-subtitle.dynamic-value {
+        /* Style for "billed mon" */
+        color: var(--text-color);
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: -0.1px;
+        line-height: 26px;
+        display: block;
+    }
+
+    .rr-addons-pricing-area .rr-addons-pricing-tabs {
+        color: var(--heading-color);
+        font-size: 19px;
+        letter-spacing: -0.2px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-bottom: 55px;
+    }
+
+    span.rr-addons-price-offer {
+        font-size: 13px;
+        color: var(--accent-color);
+        font-weight: 700;
+        letter-spacing: 1.63px;
+        line-height: inherit;
+        background-color: rgb(71 59 240 / .1);
+        padding: 0.5px 13px;
+        border-radius: 30px;
+        margin-left: 15px;
+        text-transform: uppercase;
+    }
+
+    #pricing-dynamic-deck--head .btn-toggle.active {
+        background-color: rgb(22 28 45 / .15);
+    }
+
+    #pricing-dynamic-deck--head .btn-toggle {
+        width: 70px;
+        height: 33px;
+        border-radius: 17px;
+        background-color: var(--accent-color);
+        position: relative;
+        display: inline-block;
+        margin: 0;
+    }
+
+    #pricing-dynamic-deck--head .btn-toggle.active span {
+        right: calc(100% - 27px);
+    }
+
+    #pricing-dynamic-deck--head .btn-toggle span {
+        width: 20px;
+        height: 20px;
+        background-color: #ffffff;
+        position: absolute;
+        right: 7px;
+        margin-left: 6px;
+        top: 50%;
+        -webkit-transform: translatey(-50%);
+        transform: translatey(-50%);
+        -webkit-transition: .4s ease-in-out;
+        transition: .4s ease-in-out;
+        border-radius: 500px;
+        pointer-events: none;
+    }
+
+    .rr-addons-pricing-duration {
+        color: var(--heading-color);
+        font-size: 17px;
+        letter-spacing: -0.09px;
+        line-height: 29px;
+    }
+
+    .rr-addons-pricing-item .rr-addons-btn-wrapper {
+        margin-bottom: 12px;
+    }
+
+    .rr-addons-pricing-area .rr-addons-pricing-features strong {
+        color: #161c2d;
+    }
+
+    /* pricing-switcher-tab */
+
+    .rr-addons-pricing-tabs.style-2 .rr-addons-pricing-tab {
+        /* Style for "Rectangle" */
+        border-radius: 22px;
+        border: 1px solid #e5e5e5;
+        background-color: #ffffff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .rr-addons-pricing-tabs.style-2 .rr-addons-pricing-tab a {
+        /* Style for "Yearly" */
+        color: #666666;
+        font-family: Karla;
+        font-size: 13px;
+        border-radius: 17px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 9px 27px;
+        margin: 4px;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    .rr-addons-pricing-tabs.style-2 .rr-addons-pricing-tab a.active {
+        background-color: var(--accent-color);
+        color: #fff;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    .rr-addons-pricing-tabs.style-2 {
+        position: relative;
+    }
+
+
+    /* Pricing dynamic css */
+
+    [data-pricing-dynamic][data-value-active="yearly"] .dynamic-value:after {
+        display: inline-block;
+        content: attr(data-yearly);
+    }
+
+    [data-pricing-dynamic][data-value-active="monthly"] .dynamic-value:after {
+        display: inline;
+        content: attr(data-monthly);
+    }
+
+    .dynamic-value:after {
+        display: inline-block;
+        content: attr(data-active);
+    }
+
+    .static-value:before {
+        display: inline-block;
+        content: attr(data-active);
+    }
+
+    /*---------------------------------------------------
+LINEICON BOX
+----------------------------------------------------*/
+    .rr-addons-feature-box-item {
+        width: auto;
+    }
+
+    .rr-addons-feature-box-item .rr-addons-feature-title {
+        display: inline-block;
+    }
+
+
+    .rr-addons-inline-icon-item {
+        display: flex;
+    }
+
+    .rr-addons-inline-icon-box-wrap .rr-addons-inline-icon-box-icon {
+        width: 57px;
+        height: 57px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rr-addons-inline-icon-box-wrap {
+        margin-right: 20px;
+        margin-top: 4px;
+    }
+
+    h4.rr-addons-inline-icon-box-title {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        color: var(--heading-color);
+        margin-bottom: 10px;
+    }
+
+    span.rr-addons-inline-icon-box-icon,
+    span.rr-addons-inline-icon-box-icon svg,
+    span.rr-addons-inline-icon-box-icon i {
+        transition: .3s ease-in-out;
+    }
+
+    .rr-addons-inline-icon-box-content p {
+        margin-bottom: 0;
+    }
+
+    /*---------------------------------------------------
+TEAM CARD
+----------------------------------------------------*/
+
+    .rr-addons-team-item .member-image img {
+        object-fit: cover;
+        width: 100%;
+        height: 333px;
+        border-radius: 6px;
+    }
+
+    .rr-addons-team-item .member-name {
+        font-size: 21px;
+        letter-spacing: -0.5px;
+        margin-bottom: 7px;
+        color: var(--heading-color);
+    }
+
+    .rr-addons-team-item span.team-position {
+        color: var(--text-color);
+        letter-spacing: -0.2px;
+    }
+
+    .team-apply-card {
+        height: 333px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 25px;
+    }
+
+    .team-apply-card h4 {
+        font-size: 24px;
+        line-height: 1.4em;
+        letter-spacing: -0.5px;
+        margin-bottom: 30px;
+        font-weight: 700;
+    }
+
+    .team-apply-card a {
+        font-size: 21px;
+        letter-spacing: -1.2px;
+        color: var(--accent-color);
+        border-style: solid;
+        border-width: 0px 0px 0px 0px;
+        font-weight: 700;
+    }
+
+    .team-apply-card a i {
+        margin-left: 15px;
+    }
+
+    .rr-addons-team-item {
+        margin-bottom: 61px;
+    }
+
+    .rr-addons-team-item {
+        display: block;
+    }
+
+    .team-style-2 a.rr-addons-team-item {
+        display: flex;
+    }
+
+    /*---------------------------------------------------
+    FUN FACTOR
+    ----------------------------------------------------*/
+
+    .rr-addons-fun-factor-content-number-wrap {
+        position: relative;
+    }
+
+    span.rr-addons-fun-factor-content-number-suffix {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: inline-block;
+    }
+
+    .rr-addons-fun-factor-content .rr-addons-fun-factor-content-number-wrap {
+        line-height: 1;
+        margin-top: 0;
+        margin-bottom: 15px;
+        font-size: 24px;
+    }
+
+    .rr-addons-fun-factor-content .rr-addons-fun-factor-content-text {
+        margin-top: 0;
+        margin-bottom: 15px;
+        font-size: 24px;
+    }
+
+    .rr-addons-fun-factor-content .rr-addons-fun-factor-content-number,
+    .rr-addons-fun-factor-content .rr-addons-fun-factor-content-number-prefix,
+    .rr-addons-fun-factor-content .rr-addons-fun-factor-content-number-suffix {
+        font-size: 24px;
+    }
+
+    .rr-addons-ff-icon--left .rr-addons-fun-factor-content {
+        padding-left: 20px;
+    }
+
+    .rr-addons-ff-icon--right .rr-addons-fun-factor-content {
+        padding-right: 20px;
+    }
+
+    .rr-addons-fun-factor-divider {
+        display: inline-block;
+        margin-bottom: 15px;
+        height: 1px;
+        background-color: #ccc;
+    }
+
+    .rr-addons-ff-icon--top .rr-addons-fun-factor-media {
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .rr-addons-ff-icon--top .rr-addons-fun-factor-media--image {
+        width: 200px;
+    }
+
+    .rr-addons-fun-factor-media--image img {
+        width: 100%;
+        height: 100%;
+        vertical-align: bottom;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .rr-addons-fun-factor-media--icon i,
+    .rr-addons-fun-factor-media--icon svg {
+        fill: currentColor;
+    }
+
+    .rr-addons-fun-factor-wrap {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .rr-addons-ff-icon--left>.elementor-widget-container .rr-addons-fun-factor-wrap,
+    .rr-addons-ff-icon--right>.elementor-widget-container .rr-addons-fun-factor-wrap {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        -ms-flex-align: center;
+    }
+
+    .rr-addons-ff-icon--left>.elementor-widget-container .rr-addons-fun-factor-wrap {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+    .rr-addons-ff-icon--right>.elementor-widget-container .rr-addons-fun-factor-wrap {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -webkit-flex-direction: row-reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+        text-align: right;
+    }
+
+    .rr-addons-ff-icon--top>.elementor-widget-container .rr-addons-fun-factor-wrap .rr-addons-fun-factor-divider {
+        width: 100px;
+    }
+
+    .rr-addons-ff-icon--left>.elementor-widget-container .rr-addons-fun-factor-divider,
+    .rr-addons-ff-icon--right>.elementor-widget-container.rr-addons-fun-factor-wrap .rr-addons-fun-factor-divider {
+        width: 100% !important;
+    }
+
+    .rr-addons-fun-factor-wrap.rr-addons-fun-factor-right {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .rr-addons-fun-factor-wrap {
+        text-align: center;
+    }
+
+    .rr-addons-fun-factor-wrap.rr-addons-fun-factor-left {
+        display: inline-flex;
+    }
+
+
+    /*---------------------------------------------------
+GROUP LIST
+----------------------------------------------------*/
+    .rr-addons-list-group-wrapper {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .rr-addons-list-group .rr-addons-list-group-wrapper.layout_1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rr-addons-list-group .rr-addons-list-group-wrapper.layout_2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .rr-addons-list-group .rr-addons-list-group-wrapper .rr-addons-list-group-item,
+    .rr-addons-list-group .rr-addons-list-group-wrapper .rr-addons-list-group-item a {
+        position: relative;
+        line-height: 1;
+        display: flex;
+    }
+
+    .rr-addons-list-group .rr-addons-list-group-wrapper .rr-addons-list-group-item.rr-addons-icon-center,
+    .rr-addons-list-group .rr-addons-list-group-wrapper .rr-addons-list-group-item.rr-addons-icon-center a {
+        flex-direction: column;
+    }
+
+    .rr-addons-list-group .rr-addons-list-group-wrapper .rr-addons-list-group-item.rr-addons-icon-right .rr-addons-list-group-icon {
+        order: 2;
+    }
+
+    .rr-addons-list-group .rr-addons-list-group-wrapper .rr-addons-list-group-item .rr-addons-list-group-icon .rr-addons-list-group-icon-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .rr-addons-list-group .rr-addons-list-group-wrapper .rr-addons-list-group-item .rr-addons-list-group-icon .rr-addons-list-group-icon-image {
+        display: flex;
+    }
+
+    .rr-addons-list-group .rr-addons-list-group-wrapper.layout_1 .rr-addons-list-group-item:after {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        content: "";
+        left: 0;
+    }
+
+    .rr-addons-list-group .rr-addons-list-group-wrapper.layout_2 .rr-addons-list-group-item:after {
+        position: absolute;
+        right: 0;
+        height: 100%;
+        content: "";
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .rr-addons-list-group-item:first-child{
+        padding-left: 0!important;
+    }
+    .rr-addons-list-group-item:last-child{
+        padding-right: 0!important;
+    }
+
+    .rr-addons-list-group .rr-addons-list-group-wrapper .rr-addons-list-group-item .rr-addons-list-group-icon.yes {
+        position: relative;
+    }
+
+    .rr-addons-list-group .rr-addons-list-group-wrapper .rr-addons-list-group-item .rr-addons-list-group-icon.yes i,
+    .rr-addons-list-group .rr-addons-list-group-wrapper .rr-addons-list-group-item .rr-addons-list-group-icon.yes .rr-addons-list-group-icon-image,
+    .rr-addons-list-group .rr-addons-list-group-wrapper .rr-addons-list-group-item .rr-addons-list-group-icon.yes .rr-addons-list-group-icon-number {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .rr-addons-list-group .rr-addons-list-group-wrapper .rr-addons-list-group-item .rr-addons-list-group-icon.yes .rr-addons-list-group-icon-number {
+        line-height: 0;
+    }
+
+    /* List Group CSS End */
+
+
+    /*---------------------------------------------------
+    CSS TRANSFORM
+    ----------------------------------------------------*/
+    .fsd-css-transform-yes {
+        -webkit-transition-duration: var(--fsd-tfx-transition-duration, 0.2s);
+        transition-duration: var(--fsd-tfx-transition-duration, 0.2s);
+        -webkit-transition-property: -webkit-transform;
+        transition-property: transform;
+        transition-property: transform, -webkit-transform;
+        -webkit-transform: translate(var(--fsd-tfx-translate-x, 0),
+                var(--fsd-tfx-translate-y, 0)) scale(var(--fsd-tfx-scale-x, 1), var(--fsd-tfx-scale-y, 1)) skew(var(--fsd-tfx-skew-x, 0), var(--fsd-tfx-skew-y, 0)) rotateX(var(--fsd-tfx-rotate-x, 0)) rotateY(var(--fsd-tfx-rotate-y, 0)) rotateZ(var(--fsd-tfx-rotate-z, 0));
+        transform: translate(var(--fsd-tfx-translate-x, 0),
+                var(--fsd-tfx-translate-y, 0)) scale(var(--fsd-tfx-scale-x, 1), var(--fsd-tfx-scale-y, 1)) skew(var(--fsd-tfx-skew-x, 0), var(--fsd-tfx-skew-y, 0)) rotateX(var(--fsd-tfx-rotate-x, 0)) rotateY(var(--fsd-tfx-rotate-y, 0)) rotateZ(var(--fsd-tfx-rotate-z, 0));
+    }
+
+    .fsd-css-transform-yes:hover {
+        -webkit-transform: translate(var(--fsd-tfx-translate-x-hover, var(--fsd-tfx-translate-x, 0)),
+                var(--fsd-tfx-translate-y-hover, var(--fsd-tfx-translate-y, 0))) scale(var(--fsd-tfx-scale-x-hover, var(--fsd-tfx-scale-x, 1)),
+                var(--fsd-tfx-scale-y-hover, var(--fsd-tfx-scale-y, 1))) skew(var(--fsd-tfx-skew-x-hover, var(--fsd-tfx-skew-x, 0)),
+                var(--fsd-tfx-skew-y-hover, var(--fsd-tfx-skew-y, 0))) rotateX(var(--fsd-tfx-rotate-x-hover, var(--fsd-tfx-rotate-x, 0))) rotateY(var(--fsd-tfx-rotate-y-hover, var(--fsd-tfx-rotate-y, 0))) rotateZ(var(--fsd-tfx-rotate-z-hover, var(--fsd-tfx-rotate-z, 0)));
+        transform: translate(var(--fsd-tfx-translate-x-hover, var(--fsd-tfx-translate-x, 0)),
+                var(--fsd-tfx-translate-y-hover, var(--fsd-tfx-translate-y, 0))) scale(var(--fsd-tfx-scale-x-hover, var(--fsd-tfx-scale-x, 1)),
+                var(--fsd-tfx-scale-y-hover, var(--fsd-tfx-scale-y, 1))) skew(var(--fsd-tfx-skew-x-hover, var(--fsd-tfx-skew-x, 0)),
+                var(--fsd-tfx-skew-y-hover, var(--fsd-tfx-skew-y, 0))) rotateX(var(--fsd-tfx-rotate-x-hover, var(--fsd-tfx-rotate-x, 0))) rotateY(var(--fsd-tfx-rotate-y-hover, var(--fsd-tfx-rotate-y, 0))) rotateZ(var(--fsd-tfx-rotate-z-hover, var(--fsd-tfx-rotate-z, 0)));
+    }
+
+    /*---------------------------------------------------
+    JQUERY FATEPICKER
+    ----------------------------------------------------*/
+
+    .ui-datepicker .ui-datepicker-header .ui-datepicker-prev-hover .ui-icon,
+    .ui-datepicker .ui-datepicker-header .ui-datepicker-next.ui-datepicker-next-hover .ui-icon {
+        color: var(--accent-color) !important;
+    }
+
+    .ui-datepicker .ui-datepicker-header .ui-icon {
+        font-size: 14px !important;
+        transition: .4s;
+        top: 50%;
+        transform: translatey(-4px);
+    }
+
+    div#ui-datepicker-div {
+        border: blanchedalmond;
+        width: 239px;
+        border-radius: 0px;
+        overflow: hidden;
+        padding: 0 10px;
+    }
+
+    .ui-datepicker-header.ui-widget-header {
+        background-color: #EFF0F4 !important;
+        border-bottom: none !important;
+    }
+
+    td.ui-datepicker-days-cell-over.ui-datepicker-today,
+    td.ui-datepicker-days-cell-over.ui-datepicker-today a {
+        background-color: #EFF0F4 !important;
+    }
+
+    td.ui-datepicker-days-cell-over.ui-datepicker-today a.ui-state-highlight {
+        border: none;
+    }
+
+    td a.ui-state-default {
+        font-size: 11px;
+    }
+
+    a.ui-state-default.ui-state-hover {
+        background-color: transparent !important;
+    }
+
+    .ui-datepicker-calendar tbody td:hover {
+        background: #EFF0F4;
+    }
+
+    .ui-datepicker th {
+        font-size: 12px;
+    }
+
+    .ui-datepicker .ui-datepicker-title {
+        font-size: 12px;
+    }
+
+    .ui-datepicker .ui-datepicker-header .ui-icon:before {
+        margin-bottom: 6px;
+        display: block;
+    }
+
+    .ui-datepicker table {
+        margin-bottom: 0 !important;
+        border-top: none !important;
+    }
+
+    .ui-datepicker .ui-datepicker-header {
+        border-radius: 0px !important;
+        overflow: hidden;
+        border: 0px !important;
+    }
+
+    table.ui-datepicker-calendar tr:first-child {
+        border-top: none !important;
+    }
+
+    .ui-widget-content tr {
+        height: 35px !important;
+    }
+
+    .elementor-counter .elementor-counter-number-prefix,
+    .elementor-counter .elementor-counter-number-suffix {
+        flex-grow: unset;
+    }
+
+    .subscribe-form.rr-addons-home-8-subscribe.btn-red button[type=submit] {
+        background-color: #f74d4d;
+    }
+
+
+
+    /*---------------------------------------------------
+SERVICE
+----------------------------------------------------*/
+
+    .content-align-right {
+        text-align: right;
+    }
+
+    .content-align-center {
+        text-align: center;
+    }
+
+    .content-align-left {
+        text-align: left;
+    }
+
+    .content-align-justify .rr-addons-btn {
+        width: 100%;
+        ;
+    }
+
+    .rr-addons-service-widget-item .service-thumbnail span.image-shape {
+        width: 51px;
+        height: 50px;
+        background-color: #fee444;
+        border-radius: 50%;
+        position: absolute;
+        left: 15px;
+        top: 13px;
+        z-index: -1;
+    }
+
+    .rr-addons-service-widget-item .service-thumbnail img {
+        z-index: 1;
+        position: relative;
+    }
+
+    .rr-addons-service-widget-item .service-thumbnail {
+        position: relative;
+        z-index: 1;
+    }
+
+    .rr-addons-service-widget-item .service-thumbnail-wrapper *,
+    .rr-addons-service-widget-item .service-content * {
+        transition: .3s;
+    }
+
+    .rr-addons-service-widget-item {
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .rr-addons-service-widget-item:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 200%;
+        height: 200%;
+        z-index: -1;
+        transform: translate(-96%, 2%);
+        border-radius: 50%;
+        transition: .4s linear;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .rr-addons-service-widget-item:hover:after {
+        border-radius: 0;
+        transform: translate(-22%, -19%);
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .rr-addons-service-widget-item h3.service-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .rr-addons-service-widget-item .service-top-title a {
+        display: block;
+    }
+
+    /*---------------------------------------------------
+HEADDING
+----------------------------------------------------*/
+
+    .rr-addons-heading-title.show-line-yes:after {
+        content: "";
+        width: 100%;
+        background-color: #fee444;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 7px;
+        z-index: -1;
+    }
+
+    .rr-addons-heading-title.show-line-yes {
+        position: relative;
+        display: inline-block;
+        z-index: 1;
+    }
+
+    /*---------------------------------------------------
+DUAL HEADDING
+----------------------------------------------------*/
+
+    .rr-addons-dual-heading .rr-addons-dual-heading-wrapper {
+        padding: 5px;
+    }
+
+    .rr-addons-dual-heading .rr-addons-dual-heading-wrapper .rr-addons-dual-heading-description {
+        line-height: 26px;
+        margin: 30px 0 0 0;
+        padding: 10px;
+        font-weight: 400;
+    }
+
+    .rr-addons-dual-heading .rr-addons-dual-heading-wrapper .rr-addons-dual-heading-icon {
+        display: inline-block;
+    }
+
+    .rr-addons-dual-heading .rr-addons-dual-heading-wrapper .rr-addons-dual-heading-icon i {
+        font-size: 36px;
+    }
+
+    .rr-addons-dual-heading .rr-addons-dual-heading-wrapper .rr-addons-dual-heading-title {
+        font-size: 36px;
+        margin-top: 10px;
+    }
+
+    .rr-addons-dual-heading .rr-addons-dual-heading-wrapper .rr-addons-dual-heading-title {
+        font-size: 30px;
+        color: #132c47;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .rr-addons-dual-heading .rr-addons-dual-heading-wrapper .rr-addons-dual-heading-title .first-heading,
+    .rr-addons-dual-heading .rr-addons-dual-heading-wrapper .rr-addons-dual-heading-title .second-heading {
+        padding: 15px 10px;
+    }
+
+    .rr-addons-dual-heading .rr-addons-dual-heading-wrapper .rr-addons-dual-heading-title span {
+        color: #132c47;
+    }
+
+    /*---------------------------------------------------
+BLOG
+----------------------------------------------------*/
+    /* default style  */
+
+    .rr-addons-post-widget-item {
+        transition: 0.4s;
+    }
+
+    .rr-addons-post-widget-item .post-thumbnail {
+        display: block;
+    }
+
+    .rr-addons-post-widget-item .post-thumbnail img {
+        object-fit: cover;
+        height: 261px;
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .rr-addons-post-widget-item a.post-link {
+        display: block;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-one .post-content-wrap {
+        padding: 40px 0 40px;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-one {
+        position: relative;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-one:after {
+        position: absolute;
+        content: '';
+        background: #FFBE00;
+        height: 5px;
+        width: 0%;
+        top: 0;
+        left: 0;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-one:hover:after {
+        width: 100%;
+    }
+
+    .post-top-meta {
+        font-size: 13px;
+        line-height: 1.692em;
+        color: var(--heading-color);
+        margin-bottom: 15px;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-one .category-list {
+        padding-right: 45px;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-one .post-date {
+        position: relative;
+        color: rgba(2, 12, 23, 0.65);
+    }
+
+    .rr-addons-post-widget-item.post-style-style-one .post-date:before {
+        position: absolute;
+        content: "\f111";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        top: 0;
+        left: -25px;
+        font-size: 8px;
+        color: rgba(2, 12, 23, 0.4);
+    }
+
+    h3.post-title {
+        font-size: 21px;
+        line-height: 32px;
+        margin-bottom: 10px;
+        letter-spacing: -0.5px;
+    }
+
+    .post-meta-bottom a {
+        color: var(--text-color);
+    }
+
+    .post-meta-bottom>span {
+        margin-right: 10px;
+    }
+
+    .rr-addons-post-widget-item p {
+        line-height: 29px;
+        letter-spacing: -0.2px;
+        font-size: 15px;
+        color: var(--text-color);
+        margin-bottom: 0;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-one .rr-addons-post-widget-item:hover {
+        box-shadow: 0px 34px 33px 0px rgb(22 28 45 / 13%);
+    }
+
+    .rr-addons-post-widget-item.post-style-style-one .rr-addons-post-widget-item {
+        margin-bottom: 30px;
+        box-shadow: 0px 14px 120px -2px rgba(0, 0, 0, 0.06);
+        background-color: var(--white-color);
+        overflow: hidden;
+        transition: .4s;
+    }
+
+    /* Blog style v2  */
+
+    .rr-addons-post-widget-item.post-style-style-two .post-btn .icon-after {
+        text-indent: -10px;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-two .category-list {
+        padding: 5px 18px;
+        background-color: #FCDC00;
+        border-radius: 50px;
+        color: #262729;
+        font-size: 13px;
+        font-weight: 500;
+        font-family: 'Rubik';
+        line-height: 1.818em;
+        margin-right: 13px;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-two .post-date span {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(2, 12, 23, 0.7);
+    }
+
+    .rr-addons-post-widget-item.post-style-style-two .comment-count span {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(2, 12, 23, 0.6);
+    }
+
+    .rr-addons-post-widget-item.post-style-style-two .post-meta-bottom {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-two .post-content {
+        margin: 32px 13px 36px 5px;
+        overflow: hidden;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-two .post-content .post-btn-wrap {
+        overflow: hidden;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-two .category a {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #057689;
+    }
+
+
+    .rr-addons-post-widget-item.post-style-style-two .separator i {
+        font-size: 5px;
+        color: rgba(2, 12, 23, 0.3);
+        margin-left: 8px;
+        margin-right: 8px !important;
+        margin-top: 0;
+        display: inherit;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-two .post-title {
+        font-size: 18px;
+        line-height: 1.388em;
+        margin: 15px 0px 20px 0px;
+        color: #020C17;
+        transition: .4s;
+        -webkit-transition: .4s;
+        -moz-transition: .4s;
+        -ms-transition: .4s;
+        -o-transition: .4s;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-two .post-meta-bottom .rr-addons-comment:not(:first-child) {
+        margin-bottom: 0px;
+        position: relative;
+        margin-left: 3px;
+        padding-left: 17px;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-two .post-meta-bottom .rr-addons-comment:before {
+        position: absolute;
+        left: 0;
+        width: 1px;
+        height: 80%;
+        background-color: #fff;
+        content: "";
+        top: 10%;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-three .post-top-date {
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-three .top-category-list {
+        display: flex;
+        align-items: center;
+    }
+
+    .post-content {
+        transition: all 0.4s ease 0s;
+        -webkit-transition: all 0.4s ease 0s;
+        -moz-transition: all 0.4s ease 0s;
+        -ms-transition: all 0.4s ease 0s;
+        -o-transition: all 0.4s ease 0s;
+        /* margin: 0px 40px 30px 40px; */
+    }
+
+    .rr-addons-post-widget-item.post-style-style-one .post-content {
+        margin: 0px 40px 30px 40px;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-two {
+        position: relative;
+        overflow: hidden;
+
+    }
+
+    .rr-addons-post-widget-item.post-style-style-two .post-title:hover {
+        color: rgb(255, 87, 34);
+    }
+
+    .rr-addons-post-widget-item.post-style-style-two .post-link {
+        display: block;
+    }
+
+    .post-thumbnail-wrapper.post-style-style-two {
+        position: relative;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-two .post-thumbnail-wrapper img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+
+    }
+
+    .rr-addons-post-widget-item.post-style-style-two .post-thumbnail .image-icon {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 50px;
+        height: 50px;
+        background-color: var(--accent-color-2);
+        color: var(--heading-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: .4s;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-two:hover .post-thumbnail .image-icon {
+        transform: scale(1.4);
+    }
+
+    .rr-addons-post-widget-item.post-style-list {
+        display: flex;
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .rr-addons-post-widget-item.post-style-list .post-thumbnail-wrapper .post-link {
+        height: 100%;
+    }
+
+    .rr-addons-post-widget-item.post-style-list .post-thumbnail-wrapper .post-thumbnail {
+        height: 100%;
+    }
+
+    .rr-addons-post-widget-item.post-style-list .post-thumbnail-wrapper img {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+
+    .rr-addons-post-widget-item.post-style-list .post-thumbnail-wrapper {
+        width: 57%;
+        padding-right: 30px;
+    }
+
+    .rr-addons-post-widget-item.post-style-list .post-content-wrap {
+        padding-top: 0;
+    }
+
+    /* arrow */
+
+    .blog-slider-arrow .slick-prev:before,
+    .blog-slider-arrow .slick-next:before {
+        display: none;
+    }
+
+    .blog-slider-arrow.slick-active {
+        color: #1d263a;
+    }
+
+    .blog-slider-arrow .prev {
+        position: relative;
+    }
+
+    .blog-slider-arrow .next {
+        position: relative;
+    }
+
+    .blog-slider-arrow .slick-active {
+        background: #2c4bff;
+        color: #fff;
+    }
+
+    .blog-slider-arrow button {
+        transition: all 0.4s ease-in-out;
+        font-size: 18px;
+    }
+
+    .blog-slider-arrow button:hover {
+        background-color: #1d263a;
+        color: #fff;
+    }
+
+    .blog-slider-arrow {
+        background: rgba(2, 12, 23, 0.4);
+        position: absolute;
+        right: 0;
+        top: -130px;
+        padding: 7px 15px;
+        border-radius: 5px;
+    }
+
+    .blog-slider-arrow .slick-prev {
+        left: 0px !important;
+        display: inline-block;
+        width: initial;
+        height: initial;
+        transform: initial;
+        margin-right: 15px;
+    }
+
+    .blog-slider-arrow .slick-next {
+        left: 0px !important;
+        display: inline-block;
+        width: initial;
+        height: initial;
+        transform: initial;
+        margin-left: 15px;
+    }
+
+    /*
+* pagination css
+*/
+
+    .rr-addons-pagination a,
+    .rr-addons-pagination span.current {
+        width: 36px;
+        height: 36px;
+        text-align: center;
+        line-height: 36px;
+        color: #262729;
+        font-size: 18px;
+        font-weight: 500;
+        border: 1px solid rgba(38, 39, 41, 0.1);
+        margin: 0px 5px;
+        transition: .4s;
+    }
+
+    .rr-addons-pagination {
+        margin-top: 30px;
+    }
+
+    .rr-addons-pagination span.current {
+        color: #fff;
+        background-color: #5034FC;
+    }
+
+    .rr-addons-pagination {
+        margin-left: -5px;
+    }
+
+    .rr-addons-pagination a:hover {
+        color: #fff;
+        background-color: #5034FC;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-one .post-btn-wrap {
+        margin: 40px 0px 0px 40px;
+        color: #fff;
+        overflow: hidden;
+        transition: 0.4s;
+    }
+
+    .post-meta-bottom i,
+    .post-meta-bottom svg {
+        margin-right: 12px;
+    }
+
+    /*
+        Hover
+        */
+    .post-thumbnail img {
+        transition: all 0.4s ease-in-out;
+    }
+
+    .rr-addons-post-widget-wrap.hover-one:hover .post-thumbnail img {
+        transform: scale(1.1);
+    }
+
+    .rr-addons-post-widget-wrap.hover-one .post-thumbnail {
+        overflow: hidden;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-two:hover .rr-addons-post-widget-item .post-content-wrap {
+        opacity: 1;
+        border: 0;
+        z-index: 999;
+    }
+
+    .rr-addons-post-widget-item.post-style-style-two:hover .post-content-wrap {
+        opacity: 1;
+        visibility: visible;
+        bottom: 0;
+    }
+
+    @media (max-width: 768px) {
+        .rr-addons-post-widget-item.post-style-style-two .post-content-wrap {
+            opacity: 1;
+            bottom: 0;
+            visibility: visible;
+        }
+    }
+
+    /* .rr-addons-post-widget-item.post-style-style-two .post-content-wrap {
+    visibility: visible;
+    opacity: 1;
+    bottom: 0;
+}
+
+.post-meta-bottom svg, .post-meta-bottom i {
+    margin-right: 12px;
+    font-size: 15px;
+    width: 15px;
+}
+
+.post-style-style-two .post-meta-bottom .rr-addons-comment:before {
+    display: none;
+}
+.rr-addons-post-widget-item.post-style-style-two .post-content-wrap {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.67) 45.14%, rgba(0, 0, 0, 0) 100%);
+}
+
+.post-style-style-two .post-meta-bottom .rr-addons-comment {
+    padding-left: 0;
+}
+
+.post-style-style-two span.byline .author {
+    position: relative;
+    margin-right: 25px;
+    padding-right: 25px;
+}
+
+.post-style-style-two span.byline .author:after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #fff;
+    content: "";
+} */
+    /*---------------------------------------------------
+BLOG CATEGORY
+----------------------------------------------------*/
+
+    .advis-blog-cat {
+        position: relative;
+    }
+
+    .advis-cat-contnt {
+        position: absolute;
+        display: inline-block;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: .4s;
+    }
+
+    .advis-blog-cat-title {
+        background-color: #020C17;
+        font-size: 18px;
+        color: #fff;
+        padding: 13px 25px;
+        line-height: 1.5em;
+        text-align: center;
+        margin-bottom: 0px;
+        border-radius: 5px;
+        transition: .4s;
+    }
+
+    .advis-blog-cat:hover .advis-blog-cat-title {
+        background-color: #FFBE00;
+        color: #020C17;
+    }
+
+    .advis-cat-image img {
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+        object-position: center top;
+        border-radius: 5px;
+    }
+
+    .rr-addons-addon-post-navigation .nav-links a {
+        /* Style for "PREV PROJE" */
+        color: var(--heading-color);
+        font-family: Manrope;
+        font-size: 15px;
+        font-weight: 500;
+        font-style: normal;
+        text-align: center;
+        text-transform: uppercase;
+        border: 1px solid var(--heading-color);
+        padding: 24px 31px;
+        transition: .4s;
+        position: relative;
+        z-index: 1;
+        line-height: 1;
+    }
+
+    .rr-addons-addon-post-navigation .nav-links a:hover {
+        border-color: #5034FC;
+    }
+
+    .rr-addons-addon-post-navigation .nav-links a:hover:after {
+        transform: scale(1);
+    }
+
+    .rr-addons-addon-post-navigation .nav-links a .nav-icon svg {
+        width: 17px;
+    }
+
+    .rr-addons-addon-post-navigation .nav-links a .nav-icon i {
+        font-size: 17px;
+    }
+
+    .rr-addons-addon-post-navigation .nav-links .nav-previous a .nav-icon {
+        margin-right: 14px;
+    }
+
+    .rr-addons-addon-post-navigation .nav-links .nav-next a .nav-icon {
+        margin-left: 14px;
+    }
+
+    /*---------------------------------------------------
+BACK TO SCROLL
+----------------------------------------------------*/
+
+    .rr-addons-back-to-top-wraper .rr-addons-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right: 0;
+        bottom: 0;
+        cursor: pointer;
+        position: fixed;
+        transition: all .4s;
+        opacity: 0;
+        transform: translatey(20px);
+    }
+
+    .rr-addons-back-to-top-wraper .rr-addons-icon.sticky-active {
+        opacity: 1;
+        visibility: visible;
+        transition: all .4s linear;
+        z-index: 111;
+        transform: translatey(0);
+    }
+
+    .elementor-editor-active .rr-addons-back-to-top-wraper .rr-addons-icon {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    /*---------------------------------------------------
+PORTFOLIO
+----------------------------------------------------*/
+
+    .rr-addons-portfolio-item {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .rr-addons-portfolio-item img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+        width: 100%;
+        object-fit: cover;
+        /* height: 100%; */
+        margin-bottom: 0 !important;
+    }
+
+    a.rr-addons-portfolio-content.content-postion-on-image {
+        position: absolute;
+        bottom: 15px;
+        background-color: rgba(255, 255, 255, 0.85);
+        left: 15px;
+        right: 15px;
+        padding: 20px 30px;
+        border-radius: 8px;
+        color: #161c2d;
+        transition: .4s;
+        transform: translatex(-10%);
+        opacity: 0;
+    }
+
+    a.rr-addons-portfolio-content .rr-addons-pf-category {
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 1.63px;
+        text-transform: uppercase;
+        margin-bottom: 7px;
+        color: rgba(22, 28, 45, .5);
+    }
+
+    h3.rr-addons-portfolio-title {
+        font-size: 21px;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+        line-height: 32px;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .rr-addons-portfolio-item:hover a.rr-addons-portfolio-content.content-postion-on-image {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+    ul.pf-isotope-nav {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 60px;
+    }
+
+    ul.pf-isotope-nav li {
+        /* Style for "All works" */
+        color: #6f727b;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 1.63px;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-right: 55px;
+        cursor: pointer;
+        transition: .3s;
+    }
+
+    ul.pf-isotope-nav li.active,
+    ul.pf-isotope-nav li:hover {
+        color: var(--accent-color);
+    }
+
+    a.rr-addons-portfolio-content.content-postion-below-image {
+        display: block;
+        position: relative;
+        padding: 40px 30px;
+    }
+
+    .rr-addons-pf-loadmore-btn {
+        cursor: pointer;
+        font-size: 13px;
+        color: #030303;
+        font-weight: 700;
+        text-transform: uppercase;
+        border: 1px solid;
+        letter-spacing: 1.63px;
+        border: 1px solid rgba(3, 3, 3, 0.3);
+    }
+
+    .rr-addons-hover-rotate .rr-addons-portfolio-item:hover img {
+        transform: scale(0.8) rotate(-6deg);
+        border-radius: 20px;
+        box-shadow: 0 32px 74px rgba(68, 77, 136, 0.2);
+    }
+
+    .rr-addons-hover-rotate .rr-addons-portfolio-item img {
+        transition: .4s;
+    }
+
+    a.rr-addons-portfolio-content.content-postion-disabled {
+        display: none;
+    }
+
+    /*---------------------------------------------------
+blog
+----------------------------------------------------*/
+
+    .rr-addons-post-widget-item .post-thumbnail {
+        overflow: hidden;
+    }
+
+    .rr-addons-post-widget-item .post-thumbnail:hover img {
+        transform: scale(1.1);
+    }
+
+    .rr-addons--blog-thumb {
+        position: relative;
+    }
+
+    .rr-addons-icon-videobox {
+        bottom: 37px;
+        background: #FEE444;
+        width: 115px;
+        height: 115px;
+        text-align: center;
+        position: absolute;
+        left: 21px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rr-addons--blog-thumb img {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+    }
+
+    .rr-addons--blog-thumb .owl-carousel .owl-item img {
+        height: 100% !important;
+    }
+
+    .rr-addons--tc p {
+        font-size: 28px;
+        line-height: 46px;
+    }
+
+    .t--name {
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 30px;
+        margin-bottom: 4px;
+    }
+
+    .t-postion {
+        opacity: 0.7;
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+
+    .rr-addons--blog .owl-nav {
+        position: absolute;
+        right: 0;
+        bottom: -40px;
+    }
+
+
+    .business-subs-form-01 button i {
+        margin-left: 0px;
+    }
+
+    .rr-addons--blog .owl-nav i {
+        color: #FFFFFF;
+        font-size: 24px;
+    }
+
+    .rr-addons--blog .owl-nav .owl-prev {
+        margin-right: 60px;
+    }
+
+    .rr-addons--blog .owl-nav i:hover {
+        color: #FEE444;
+    }
+
+    .fIngo--tn-single.style-five .fIngo--tn-icon {
+        position: static;
+    }
+
+    /*---------------------------------------------------
+VERTICAL MENU
+----------------------------------------------------*/
+
+    .rr-addons-vertical-menu-wrap ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .rr-addons-vertical-menu a {
+        /* Style for "Chemical R" */
+        color: #171b24;
+        font-family: Manrope;
+        font-size: 21px;
+        font-weight: 700;
+        text-align: left;
+        /* Text style for "Chemical R" */
+        font-style: normal;
+        letter-spacing: normal;
+        padding: 14px 0;
+        transition: .3s;
+        display: block;
+    }
+
+    .rr-addons-vertical-menu a:hover,
+    .rr-addons-vertical-menu li.current-menu-item>a {
+        color: var(--accent-color);
+    }
+
+    /*---------------------------------------------------
+SLIDER
+----------------------------------------------------*/
+
+    .rr-addons-rev-btn:hover img {
+        margin-left: 15px;
+    }
+
+    .rr-addons-rev-btn img {
+        transition: .4s;
+        margin-left: 7px;
+        ;
+    }
+
+    /*---------------------------------------------------
+STICKY
+----------------------------------------------------*/
+
+    .sticky-wrapper {
+        width: 100%;
+    }
+
+    .sticky-wrapper.is-sticky>.rr-addons-sticky-yes {
+        position: absolute;
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+
+    .sticky-wrapper.is-sticky>.rr-addons-sticky-yes.reveal-sticky {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        opacity: 1;
+        transform: translate(0px);
+        transition: all 0.3s;
+    }
+
+    /* megamenu builder css  */
+
+    .main-navigation ul.navbar-nav .menu-item-has-children .sub-menu.rr-addons-megamenu-builder-content-wrap {
+        padding: 0 !important;
+        border: none;
+    }
+
+    /*---------------------------------------------------
+COUNTDOWN
+----------------------------------------------------*/
+
+    .rr-addons-countdown .rr-addons-countdown__count {
+        font-size: 120px;
+        letter-spacing: -3.96px;
+        font-weight: 700;
+        color: var(--heading-color);
+        line-height: 1.3;
+    }
+
+    .rr-addons-countdown li {
+        text-align: center;
+        display: inline-block;
+    }
+
+    .rr-addons-countdown .text {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+        color: var(--heading-color);
+        font-weight: 700;
+    }
+
+    ul.rr-addons-countdown {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .rr-addons-countdown-item.show-no {
+        display: none;
+    }
+
+    li.rr-addons-countdown-item.count-down-block .text {
+        display: block;
+    }
+
+    li.rr-addons-countdown-item.count-down-inline .text {
+        display: inline-block;
+    }
+
+    .rr-addons-countdown-wrapper .divider {
+        position: relative;
+    }
+
+    /*---------------------------------------------------
+CONTACT FORM
+----------------------------------------------------*/
+
+    .rr-addons--contactform-wraper.absolute {
+        position: relative;
+    }
+
+    .rr-addons--contactform-wraper.absolute input[type=submit],
+    .rr-addons--contactform-wraper.absolute button[type=submit] {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .rr_addons--contact-form- p:empty:before {
+        display: none;
+    }
+
+    .rr-addons--contactform-wraper p:empty:before {
+        display: none;
+    }
+
+    .rr-addons--contactform-wraper input:not([type=checkbox]) {
+        height: 70px;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 100%;
+    }
+
+    .rr-addons--contactform-wraper input[type=submit],
+    .rr-addons--contactform-wraper button[type=submit] {
+        background-color: #6A26DA;
+        color: #fff;
+        font-weight: 600;
+        height: 70px;
+        width: 172px;
+        padding: 0px;
+    }
+
+    form.wpcf7-form {
+        display: inline-block;
+    }
+
+    .rr-addons--contact-icon-before {
+        position: relative;
+    }
+
+    .rr-addons--contact-icon-before:before {
+        position: absolute;
+        left: 38px;
+        top: 22px;
+        color: #6001D3;
+        z-index: 10;
+        font-family: 'Font Awesome 5 Free';
+        content: "\f0e0";
+        font-size: 20px;
+    }
+
+    form.wpcf7-form input {
+        width: 100%;
+        ;
+    }
+
+    .rr-addons--contact-icon-before:before {
+        left: 25px;
+    }
+
+    div.wpcf7 .ajax-loader:before {
+        display: none;
+    }
+
+    .wpcf7 form.submitting .ajax-loader {
+        display: none;
+    }
+
+    .wpcf7 form.submitting input.wpcf7-form-control.wpcf7-submit {
+        opacity: .4;
+        cursor: alias;
+        cursor: progress;
+    }
+
+    .rr-addons--contactform-wraper.rr-addons-contact-from {
+
+        position: relative;
+    }
+
+    .techex-addons-btn {
+        transition: 0.4s;
+    }
+
+    /*---------------------------------------------------
+LOGIN FORM
+----------------------------------------------------*/
+
+    .form-field label {
+        display: block;
+    }
+
+    .form-field label,
+    .form-field input {
+        width: 100%;
+    }
+
+    .log-remember span.checkmark {
+        display: flex;
+        align-items: center;
+    }
+
+    .form-field input {
+        margin-bottom: 20px;
+    }
+
+    /* check box */
+
+    #rememberme input[type="checkbox"],
+    .reg-remember input[type="checkbox"] {
+        height: 20px !important;
+        width: 20px !important;
+        margin-right: 11px !important;
+        cursor: pointer;
+        margin-bottom: 0px !important;
+    }
+
+    .rr-addons-login-form-wrapper form .log-remember label,
+    .rr-addons-register-form form .reg-remember label {
+        display: flex;
+        align-items: center;
+    }
+
+    .rr-addons-register-wrapper form .reg-remember label a {
+        margin-left: 3px;
+    }
+
+    /* reset password */
+
+    .rr-addons-form .rr-addons-input {
+        height: 56px;
+        width: 100%;
+        padding: 20px;
+        border-radius: 40px;
+    }
+
+    /*---------------------------------------------------
+  ACCORDION
+  ----------------------------------------------------*/
+
+    .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-title {
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        align-items: center;
+    }
+
+    .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-title h3 {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .rr-addons-accordion-single-item h3 {
+        font-weight: 600;
+    }
+
+    .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-title:hover {
+        cursor: pointer;
+    }
+
+    .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-title .rr-addons-active-inactive-icon {
+        position: relative;
+        margin-left: 15px;
+    }
+
+    .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-title span.rr-addons-tab-title-icon {
+        position: relative;
+    }
+
+    .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-title .rr-addons-active-icon i,
+    .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-title .rr-addons-inactive-icon i,
+    .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-title span.rr-addons-tab-title-icon i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+    }
+
+    .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-title .rr-addons-active-icon svg,
+    .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-title .rr-addons-inactive-icon svg,
+    .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-title span.rr-addons-tab-title-icon svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+    }
+
+    .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-title.active .rr-addons-inactive-icon,
+    .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-title .rr-addons-active-icon {
+        display: none;
+    }
+
+    .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-title.active .rr-addons-active-icon {
+        display: block;
+    }
+
+    .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-content {
+        display: none;
+    }
+
+    .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-title .rr-addons-active-inactive-icon {
+        width: 70px;
+        margin-left: auto;
+    }
+
+    .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-content .rr-addons-accordion-content-wrapper {
+        display: flex;
+    }
+
+    .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-content .rr-addons-accordion-content-wrapper.has-image-yes .rr-addons-accordion-text {
+        width: 60%;
+    }
+
+    .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-content .rr-addons-accordion-content-wrapper.has-image-yes .rr-addons-accordion-image {
+        width: 40%;
+    }
+
+    .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-content .rr-addons-accordion-content-wrapper.has-image-yes.image-position-left .rr-addons-accordion-text {
+        order: 2;
+    }
+
+    .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-content .rr-addons-accordion-content-wrapper.has-image-yes.image-position-left .rr-addons-accordion-image {
+        order: 1;
+    }
+
+    .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-content .rr-addons-accordion-content-wrapper .rr-addons-accordion-button a {
+        display: inline-block;
+    }
+
+    @media only screen and (max-width: 767px) {
+        .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-content .rr-addons-accordion-content-wrapper {
+            flex-direction: column;
+        }
+
+        .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-content .rr-addons-accordion-content-wrapper.has-image-yes .rr-addons-accordion-text,
+        .rr-addons-accordion-items .rr-addons-accordion-single-item .rr-addons-accordion-content .rr-addons-accordion-content-wrapper.has-image-yes .rr-addons-accordion-image {
+            width: 100%;
+        }
+    }
+
+    /*---------------------------------------------------
+  PROGRESS BAR
+  ----------------------------------------------------*/
+
+    .ldBar {
+        position: relative;
+    }
+
+    .ldBar.label-center>.ldBar-label {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-shadow: 0 0 3px #ffffff;
+    }
+
+    .rr-addons-progress-bar .ldBar-label:after {
+        content: "%";
+        display: inline;
+        position: absolute;
+    }
+
+    .ldBar.no-percent .ldBar-label:after {
+        content: ""
+    }
+
+    [class*="rr-addons-progress-bar-"].line {
+        position: relative;
+    }
+
+    [class*="rr-addons-progress-bar-"].line .ldBar-label {
+        position: absolute;
+        top: -12px;
+        right: 0;
+    }
+
+    [class*="rr-addons-progress-bar-"].line-bubble {
+        position: relative;
+    }
+
+    [class*="rr-addons-progress-bar-"].line-bubble .ldBar-label {
+        position: absolute;
+        left: 0;
+        top: 0%;
+        width: 50px;
+        height: 50px;
+        -webkit-transform: translate(-50%, 25%);
+        transform: translate(-50%, 25%);
+        background-color: #ccc;
+        line-height: 27px;
+    }
+
+    [class*="rr-addons-progress-bar-"].circle {
+        position: relative;
+    }
+
+    [class*="rr-addons-progress-bar-"].circle .ldBar-label {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    [class*="rr-addons-progress-bar-"].circle h3 {
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    [class*="rr-addons-progress-bar-"].fan {
+        position: relative;
+    }
+
+    [class*="rr-addons-progress-bar-"].fan svg {
+        margin-top: -40%;
+    }
+
+    [class*="rr-addons-progress-bar-"].fan h3 {
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    [class*="rr-addons-progress-bar-"].fan .ldBar-label {
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translate(-50%, -20%);
+        transform: translate(-50%, -20%);
+        font-size: 30px;
+        bottom: 7%;
+    }
+
+    [class*="rr-addons-progress-bar-"].fan .left-title {
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+    }
+
+    [class*="rr-addons-progress-bar-"].fan .right-title {
+        position: absolute;
+        bottom: -10px;
+        right: 0;
+    }
+
+    .rr-addons-progress-bar svg:not(:root) {
+        overflow: hidden;
+        height: inherit;
+    }
+
+    .rr-addons-progress-bar-title {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    /* pricing badge  */
+
+    span.rr-addons-pricing-badge {
+        background-color: var(--accent-color);
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0 14px;
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    /*---------------------------------------------------
+BRAND LOGO
+----------------------------------------------------*/
+    /* arrow */
+    /* the slides */
+
+    .brand-logo-slider .slick-slide {
+        margin: 0 27px;
+    }
+
+    /* the parent */
+
+    .brand-logo-slider .slick-list {
+        margin: 0 -27px;
+    }
+
+    .brand-logo-slider-arrow {
+        position: relative;
+    }
+
+    .brand-logo-slider-arrow .slick-prev:before,
+    .brand-logo-slider-arrow .slick-next:before {
+        display: none;
+    }
+
+    .brand-logo-slider-arrow button button {
+        display: none;
+    }
+
+    .brand-logo-slider-arrow.slick-active {
+        color: #1d263a;
+    }
+
+    .brand-logo-slider-arrow button.prev {
+        position: absolute;
+    }
+
+    .brand-logo-slider-arrow button.next {
+        position: absolute;
+    }
+
+    .brand-logo-slider-arrow .slick-active {
+        background: #2c4bff;
+        color: #fff;
+    }
+
+    .brand-logo-slider-arrow button {
+        transition: all 0.4s ease-in-out;
+        font-size: 20px;
+        color: #1d263a;
+        cursor: pointer;
+        height: 60px;
+        width: 60px;
+        background: rgba(44, 71, 255, 0.6);
+        text-align: center;
+        display: inline-block;
+    }
+
+    .brand-logo-slider-arrow button:hover {
+        background-color: #1d263a;
+        color: #fff;
+    }
+
+    .brand-logo-dots .slick-dots {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .brand-logo-dots .slick-dots li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 5px;
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+        transition: 0.4s;
+    }
+
+    .brand-logo-dots .slick-dots li button {
+        border: none;
+        list-style: none;
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+        color: transparent;
+        opacity: 0.2;
+    }
+
+    .brand-logo-dots .slick-dots li button:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    .brand-logo-dots .slick-dots li.slick-active {
+        background-color: #ffd166 !important;
+    }
+
+    @media only screen and (min-width: 768px) {
+        .brand-logo-slider .slick-slide img {
+            display: block;
+            margin: 0px auto;
+        }
+
+        .brand-logo-slider-arrow .prev {
+            left: 215px !important;
+            right: auto !important;
+        }
+    }
+
+    @media only screen and (min-width: 320px) {
+        .brand-logo-slider .slick-slide img {
+            display: block;
+            margin: 0px auto;
+        }
+    }
+
+    /*---------------------------------------------------
+CARD
+----------------------------------------------------*/
+
+    .rr-addons-card-images {
+        position: relative;
+    }
+
+    .rr-addons-card-images img {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .rr-addons-card-number {
+        position: absolute;
+        top: 0;
+        width: 60px;
+        height: 60px;
+        background-color: #ED6341;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 30px;
+        margin-top: 30px;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 2;
+        transition: 0.4s all ease-in-out;
+    }
+
+    .rr-addons-single-card:hover .rr-addons-card-number {
+        opacity: 1;
+        visibility: visible;
+        margin-left: 30px;
+    }
+
+    .rr-addons-card-content {
+        position: absolute;
+        bottom: 0;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        background: linear-gradient(180deg, rgba(31, 40, 57, 0) 17.52%, #000000 100%);
+        width: 100%;
+    }
+
+    .rr-addons-card-images:after {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 50%;
+        content: "";
+        background: linear-gradient(180deg, rgba(31, 40, 57, 0) 17.52%, #000000 100%);
+    }
+
+    .rr-addons-card-title {
+        font-size: 22px;
+        color: #fff;
+        font-weight: 700;
+        margin-bottom: 5px;
+        line-height: 33px;
+    }
+
+    .rr-addons-card-discription {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 18px;
+    }
+
+    .rr-addons-single-card.hover-one:hover .rr-addons-card-images img {
+        transform: scale(1.1);
+    }
+
+    .rr-addons-single-card.hover-one .rr-addons-card-images {
+        overflow: hidden;
+    }
+
+    .rr-addons-card-images img {
+        transition: .7s;
+    }
+
+    /*---------------------------------------------------
+TAB
+----------------------------------------------------*/
+
+    .rr-addons-tab-content-single {
+        display: none;
+    }
+
+    .rr-addons-tab-content-single.current {
+        display: block;
+        position: relative;
+    }
+
+    .rr-addons--tab-menu ul.tabs {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 856px;
+        border-bottom: 2px solid rgb(0 28 128 / 20%);
+        flex-wrap: wrap;
+    }
+
+    .rr-addons--tab-menu ul.tabs>li {
+        display: inline-flex;
+        font-style: normal;
+        font-weight: 1.3;
+        font-size: 20px;
+        color: #2B59FF;
+        position: relative;
+        padding: 20px 0;
+        border-bottom: 2px solid transparent;
+        margin-bottom: -2px;
+        transition: .3s;
+        cursor: pointer;
+    }
+
+    .rr-addons--tab-menu ul.tabs>li .rr-addons-tab-icon {
+        margin-right: 8px;
+        font-size: 18px;
+        width: 18px;
+    }
+
+    .rr-addons--tab-menu {
+        text-align: center;
+    }
+
+    .rr-addons--tab-menu ul.tabs>li.current {
+        border-color: #FD4C5C;
+        color: #FD4C5C;
+    }
+
+    .rr-addons-elm-edit-popup .mfp-content {
+        max-width: 80vw;
+        max-height: 80vh;
+    }
+
+    .rr-addons-elm-edit-wrap {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        border: 1px solid #ffa500d9;
+        transition: .3s;
+    }
+
+    a.rr-addons-elm-edit {
+        transform: translatey(-100%);
+        background: #ffa500d9;
+        color: #fff;
+        padding: 0 13px;
+    }
+
+    /*---------------------------------------------------
+RESPONSIVE CSS
+----------------------------------------------------*/
+
+    /*    @media only screen and (min-width: 1400px) {
+        .elementor-section.elementor-section-boxed>.elementor-container {
+            max-width: 1320px;
+        }
+    } */
+
+    @media only screen and (min-width:1025px) and (max-width:1200px) {
+        .rr-addons-pricing-area .container-fluid {
+            padding: 0 100px;
+        }
+
+        .rr-addons-pricing-item-wrap {
+            margin-bottom: 30px;
+        }
+
+        .rr-addons-register-form form .reg-remember label {
+            display: block;
+        }
+
+        .reg-remember input[type="checkbox"] {
+            width: 15px !important;
+        }
+    }
+
+    @media only screen and (min-width:991px) and (max-width:1200px) {
+        .rr-addons-pricing-item-wrap {
+            margin-bottom: 30px;
+        }
+
+    }
+
+    @media only screen and (max-width:991px) {
+        .rr-addons-pricing-item-wrap {
+            margin-bottom: 30px;
+        }
+
+        .rr-addons-register-form form .reg-remember label {
+            display: block;
+        }
+
+        .reg-remember input[type="checkbox"] {
+            width: 15px !important;
+        }
+    }
+
+    @media only screen and (max-width:991px) and (min-width:768px) {
+        .rr-addons-blog-stories .swiper-navigation {
+            margin-top: 0;
+        }
+
+        .content-align-tablet-right {
+            text-align: right;
+        }
+
+        .content-align-tablet-center {
+            text-align: center;
+        }
+
+        .content-align-tablet-left {
+            text-align: left;
+        }
+
+        .content-align-tablet-justify .rr-addons-btn {
+            width: 100%;
+        }
+
+        /* Main menu  */
+        .rr-addons-main-menu-wrap.menu-align-tablet-end {
+            justify-content: flex-end;
+        }
+
+        .rr-addons-main-menu-wrap.menu-align-tablet-center {
+            justify-content: center;
+        }
+
+        .rr-addons-main-menu-wrap.menu-align-tablet-start {
+            justify-content: flex-start;
+        }
+    }
+
+    @media only screen and (max-width:767px) {
+        .content-align-mobile-right {
+            text-align: right;
+        }
+
+        .content-align-mobile-center {
+            text-align: center;
+        }
+
+        .content-align-mobile-left {
+            text-align: left;
+        }
+
+        .content-align-mobile-justify .rr-addons-btn {
+            width: 100%;
+        }
+
+        /* Main menu  */
+        .rr-addons-main-menu-wrap.menu-align-mobile-end {
+            justify-content: flex-end;
+        }
+
+        .rr-addons-main-menu-wrap.menu-align-mobile-center {
+            justify-content: center;
+        }
+
+        .rr-addons-main-menu-wrap.menu-align-mobile-start {
+            justify-content: flex-start;
+        }
+
+        .nice-select ul.list {
+            width: 100%;
+            margin-top: 0;
+        }
+
+        .rr-addons-addon-post-navigation .nav-links {
+            display: block;
+        }
+
+        .rr-addons-addon-post-navigation .nav-links .nav-previous {
+            margin-bottom: 10px;
+        }
+
+        .rr-addons--contactform-wraper.absolute input[type=submit],
+        .rr-addons--contactform-wraper.absolute button[type=submit] {
+            left: 0;
+        }
+    }
+
+    /* Image Overflow Hidden */
+
+    .elementor-widget-image .elementor-widget-container {
+        overflow: hidden;
+    }
+
+    .subscribe-form-02 .with-icon-input i {
+        color: #CDCCD9;
+        font-size: 22px;
+        position: absolute;
+        left: 15;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+    }
+
+    .subscribe-form-02 .with-icon-input input {
+        position: relative;
+        z-index: 1;
+    }
+
+    .subscribe-form-02 p {
+        margin: 0;
+    }
+
+    @media screen and (max-width: 768px) {
+        .subscribe-form-02 .with-icon-input i {
+            left: 10px;
+            top: 36px;
+        }
+    }
+
+    .rr-addons-form .rr-addons-link {
+        display: inherit;
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .rr-addons-form .rr-addons-link p {
+        margin: 0;
+    }
+
+    .rr-addons-form .rr-addons-link p {
+        margin-left: 9px;
+    }
+
+    .rr-addons-login-form-wrapper .password-field {
+        position: relative;
+    }
+
+    .rr-addons-login-form-wrapper .forgetpassword {
+        right: 0;
+        top: 50%;
+    }
+
+    .elementor-widget-rr-addons-lost-password .elementor-widget-container {
+        text-align: center;
+    }
+    .post-thumbnail {
+        position: relative;
+    }
+    
+    span.category-list {
+        position: absolute;
+        top: 13px;
+        left: 21px;
+    }
+    .post-thumbnail {
+        position: relative;
+    }
+    .img {
+        position: absolute;
+        top: 377px;
+        right: 15px;
+    }

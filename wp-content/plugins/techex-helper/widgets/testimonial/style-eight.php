@@ -1,0 +1,45 @@
+<?php 
+use Elementor\Icons_Manager;
+?>
+
+<div class="techex--tn-single style-eight">
+
+    <div class="style-eight-top">
+        <div class="techex--tn-dis">
+            <?php echo techex_get_meta( $content );?>
+        </div>
+        <?php if(function_exists('the_field') ):    
+                $ratting = get_field('review_rating');
+            ?>
+            <div class="techex--tn-icon">
+                <?php for($i=0;$i<$ratting;$i++): ?>
+                    <?php Icons_Manager::render_icon($settings['icon'], ['aria-hidden' => 'true']) ?>
+                <?php endfor; ?>
+            </div>
+        <?php endif; ?>
+    </div>
+    
+    
+    <div class="techex-tn-bottom-style-eight">
+        <div class="techex--tn-top">
+            <?php if(has_post_thumbnail() ): ?>
+                <div class="techex--t-thumb">
+                    <?php the_post_thumbnail( 'medium' ) ?>  
+                </div>
+            <?php endif; ?>
+        </div>
+        <div class="techex--tn-name-title">
+            <h4 class="techex--tn-name">
+                <?php the_title() ?>
+            </h4>
+
+            <?php if(function_exists('the_field') ):?>
+                <span class="techex--tn-title">
+                    <?php echo get_field('designation') ?>
+                </span>
+            <?php endif; ?>
+        </div>
+    </div>
+
+   
+</div>
